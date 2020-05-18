@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Parasol Corp"/>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+    <title>Parasol Corp</title>
+    <style>
+        html {
+            height: 100%;
+        }
+
+        body {
+            display: grid;
+            grid-template-rows: 1fr auto;
+            height: 100%;
+            margin: 0;
+            text-align: center;
+        }
+
+        footer {
+            background-color: black;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            margin-top: 30px;
+            padding: 10px;
+        }
+
+        picture {
+            padding: 30px;
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <picture>
+        <source media="(orientation: landscape)" srcset="parasol.landscape.png">
+        <img src="parasol.portrait.png" alt="Parasol Corp" style="width:auto;">
+    </picture>
+</div>
+<footer>
+    <a href="https://votemike.co.uk/">Michael Gwynne</a>
+</footer>
+</body>
+</html>
